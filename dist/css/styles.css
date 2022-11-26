@@ -117,7 +117,7 @@ body{
 }
 
 .title-tag{
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 1.5%;
 }
 
@@ -131,8 +131,45 @@ body{
     font-weight: 400;
 }
 
-.profile-table{
+.profile-display{
+    background-color: #ffffff;
+    height: 220px;
+    width: 92%;
+    margin-top: 20px;
+    margin-left: calc((100% - 92%) / 2);
+    box-shadow: 0 0 6px 1px #8f8f8f;
+    border-radius: 10px;
+    display: flex;
+}
+
+.picture-profile-place{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+.desc-profile{
+    height: 100%;
     width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.desc-profile h2{
+    font-weight: 500;
+}
+
+.desc-profile h5{
+    font-weight: 300;
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(99, 96, 94);
 }
 
 /* main page */
