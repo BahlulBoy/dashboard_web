@@ -1,6 +1,6 @@
 :root{
-    --max-width-sidebar : 240px;
-    --min-width-sidebar : 20;
+    --max-width-sidebar : 16%;
+    --min-width-sidebar : 5%;
     --main-color : #434343;
     --sidebar-hover: #272222;
     --back-hover-color: rgb(226, 224, 224);
@@ -38,6 +38,7 @@ body{
     background: #ffffff;
     box-shadow: 2px 0px 5px 3px rgb(228, 228, 228);
     padding: 10px 0px 0px 0px;
+    z-index: 10;
 }
 
 /* sidebar logo */
@@ -53,7 +54,7 @@ body{
 
 .logo_content{
     margin-top: 10px;
-    padding-left: 17px;
+    padding-left: 15px;
 }
 
 .logo_content .logo .logo_name{ 
@@ -71,20 +72,20 @@ body{
 .nav-link{
     display: block;
     padding: 0;
-    text-align: right;
-    height: 50px;
+    text-align: left;
+    height: 40px;
     align-items: center;
 }
 
 .nav-link a{
-    padding: 8px 16px 8px 20px;
+    padding: 0px 16px 0px 25px;
     align-items: center;
     display: block;
     color: var(--main-color);
 }
 
 .nav-link a:hover{
-    padding: 8px 16px 8px 20px;
+    padding: 0px 16px 0px 25px;
     align-items: center;
     display: block;
     color: var(--sidebar-hover);
@@ -92,7 +93,7 @@ body{
 }
 
 .side-icon{
-    font-size: 30px;
+    font-size: 18px;
     line-height: 40px;
     float:inline-start;
 }
@@ -100,9 +101,39 @@ body{
 .link_name{
     display: inline;
     margin: 0 0 0 10px;
-    font-size: 30px;
+    font-size: 18px;
     text-decoration: none;
 }
 
 
+/* main page */
+.main-page{
+    background-color: #f5f4f4;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 84%;
+}
+
+.title-tag{
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+.title-tag i{
+    float: left;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.title-tag h1{
+    font-weight: 400;
+}
+
+.profile-table{
+    width: 80%;
+}
+
+/* main page */
 
